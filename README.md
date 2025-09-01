@@ -1,7 +1,9 @@
 Breanna Lee
 https://a1-breanna-lee-a25.onrender.com
 
-In this project, I was able to play around with HTML and CSS and get comfortable using Github and deploying my website on Render. 
+
+
+In this project I got to experiment with HTML and CSS, and get familiar with Github and deploying my website to Render
 
 ## Technical Achievements
 - **Styled page with CSS**: 
