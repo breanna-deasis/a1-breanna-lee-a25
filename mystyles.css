@@ -1,0 +1,141 @@
+div {
+    font-family: Ubuntu Mono, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --darkpurple: #15197b;
+    --lightblue: #87ade3;
+    --hotpink: #fe88fa;
+    --offwhite: #fafafa;
+    --grey: #f3f3f1;
+}
+
+body{
+    margin: 10px;
+    background-image: url(images/cloudBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Ubuntu Mono;
+    color: rgb(134, 80, 13);
+}
+
+p {
+    font-family:Ubuntu Mono, dokyo,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.p2 {
+    font-family:Ubuntu Mono;
+    font-size: 19px;
+    line-height: 41px;
+}
+
+li {
+    font-family: Ubuntu Mono;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+#wrapper {
+    max-width: 500px;
+}
+
+.box {
+    position: relative;
+    border-radius: 10px;
+    border: 1px dashed var(--darkpurple);
+    padding: 10px;
+}
+
+#about {
+    margin: 60px;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-family: 'WindSong', cursive;
+    font-size: 50px;
+    color:#eeaecb;
+}
+
+h2 {
+    font-family: Ubuntu Mono, bold;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+audio {
+    filter: sepia(20%) saturate (70%) grayscale(1) contrast(99%) invert(12%);
+    color:#eeaecb;
+    margin-left: 20px;
+    width: 200px;
+    height: 25px;
+}
+
+audio:hover {
+    box-shadow: 0px 0px 20px 10px var(--hotpink);
+}
+
+main#intro {
+    box-shadow: 0px 0px 20px 0px var(--hotpink);
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 500px;
+    height: 539px;
+    background-image: url(images/notepadYellow2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-area: intro;
+    border: 2px solid rgb(249, 194, 203);
+    line-height: 26px;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+
+main#intro:hover {
+    box-shadow: 0px 0px 20px 10px var(--hotpink);
+}
+
+main#intro .inner {
+    overflow: auto;
+    margin: 20px 30px 0px 50px;
+    height: 470px;
+    scrollbar-color: #eeaecb #f5dfa4;
+}
+
+#school {
+    float: right;
+    position:absolute;
+    top: 300px;
+    right: 40px;
+    width: 627px;
+    background-image: url(images/gridHorizontal.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid var(--hotpink);
+    transition-duration:0.5s;
+}
+
+#school .inner{
+    margin: 37px 60px 60px 60px;
+    height: 330px;
+}
+
+#school:hover {
+    box-shadow: 0px 0px 20px 10px var(--hotpink);
+}
+
+
+#me {
+    top: 60px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    margin: 70px;
+}
+
+#me .wrapper-in img {
+    display: inline-block;
+    height: 148px;
+}

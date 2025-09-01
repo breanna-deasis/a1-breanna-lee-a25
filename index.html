@@ -3,26 +3,90 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" media=""all>
+    <link rel="stylesheet" href = "mystyles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=WindSong">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+    <div id="about" font-family= dokyo>
+    <!--  website header + fun music to help grow your plant -->
+    <h1 class ="font-effect-neon">Breanna Lee's website!!     
+      <audio controls autoplay loop> <!-- it should autoplay, but that isn't working  -->
+        <source src = "Mort Garson - Swingin' Spathiphyllums.mp3" type="audio/mpeg"/>
+        Your browser does not support the audio element.
+        <!--  this text will only display if the audio cannot be played -->
+      </audio>
+    </h1>
+    <!--  intro information  -->
+    <main id="intro" class = "box">
+      <div class = "inner">
+      <p>
+        <!--When I was younger I loved making games on scratch and websites on neocities, so doing this again
+        is really exciting. I find a lot of joy going back to the Philippines where streets are flooded
+        with excessively colorful flyers, and browsing websites on neocities - an unpretentious website hosting service 
+        that continues to teach young queer kids how to make websites. My inspiration and design is heavily
+        motivated by a desire to express myself and feel connected to my culture. In high school, I found a safe and supportive community through 
+        the internet, which led me to to administrating a meme page to advocate for and share stories between students and employees, 
+        encourage people to join our hiking club, share resources for trans people and those struggling with addiction, and create 
+        a makeshift take-one-leave-one bookshelf!! I'm not on the internet as much anymore, because I have a job and started going to the gym, 
+        but I am so excited to learn and create more :D -->
+      </p>
+      <p>
+        Hiiii, welcome to my website! I am in the class of 2027 studying <b> Computer Science with a concentration in Cybersecurity.</b> In my free time 
+        I find myself researching medicine, cooking with and for the people I love (everyone), making clothes and jewelry, playing board games,
+        and weightlifting. I've been reading more sci-fi and love Octavia Butler so if you have any recs, please let me know!
+      </p>
+      <h2>CS classes taken at WPI</h2>
+      <ul>
+        <li>Operating Systems</li>
+        <li>Database Systems</li>
+        <li>Foundations of Computer Science</li>
+        <li>Algorithms</li>
+      </ul>
+      <h2>Working Experience</h2>
+      <ul>
+        <li>WPI IT office</li>
+        <li>Freelance app dev</li>
+      </ul>
+    </div>
+    </main>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    <!--  information about major, year, school etc.. -->
+    <div id="school">
+      <div class = "inner">
+          <h2> Technical Skills</h2>
+          <p class="p2">
+            HTML ★★★
+            <br>CSS ★★
+            <br>Java ★★★★
+            <br>Javascript ★
+            <br>Python ★★★★
+            <br>Unit Testing ★
+            <br>Refactoring Code ★★★★
+          </p>
+      </div>
+    </div>
+
+    <!--  images of me and some of the people I love  -->
+    <div id="me">
+      <div class = "wrapper-in">
+        <marquee direction="left" scrollamount="3" behavior="alternate" onmouseover="this.stop();" onmouseout="this.start();">
+          <!--  marquee is not the best idea for web development, but I think it is a really awesome -->
+          <img src="images/bree.jpg">
+          <img src="images/love.jpg">
+          <img src="images/orangeTatay.JPG">
+          <img src="images/OrangeNanay.JPG">
+          <img src="images/bunnyGrapes.jpg">
+          <img src="images/foodFlower.jpg">
+          <!--img src="images/foodMango.JPG">
+          <img src="images/cameronSmile.JPG">
+          <img src="images/meeraSophia.JPG">
+          <img src="images/breeVivian.JPG">-->
+        </marquee>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
